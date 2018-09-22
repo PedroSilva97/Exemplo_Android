@@ -31,7 +31,7 @@ public class Exemplo2 extends AppCompatActivity {
             public void onClick(View v) {
                 String nome = textNome.getText() .toString();
                 if(radioMasc.isChecked()){
-                    alert("Bem-vindo", "Olá Sr: " + nome );
+                    alert("Bem-vindo", "Olá Sr: " + nome  );
                 }
                 else if(radioFem.isChecked()){
                     alert("Bem-vindo", "Olá Sra: " + nome );
